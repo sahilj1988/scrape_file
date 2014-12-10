@@ -9,7 +9,7 @@ class Scraper_globaldirectpartscom Implements ISearchByURL
             $url = $url_obj['scheme'] . '://www.' . $url_obj['host'] . $url_obj['path'];
 		$this->extractProductInformation($url);
         return $this->productsInformation;
-    }
+    }         
    
     private function extractProductInformation($urlToParse,$count = 10){
 	
