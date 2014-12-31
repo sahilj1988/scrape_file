@@ -1,7 +1,7 @@
 <?php
 	//scraper for otterbox to get the product information by implement searchby url interface
 	class Scraper_otterboxcom Implements ISearchByURL
-	{
+	{        
 		public $carturl="https://www.otterbox.com/on/demandware.store/Sites-otterbox_us-Site/default/Cart-MiniAddProduct
 		";
 		public $productInformation=array('name'=>'','price'=>'','sku'=>'','shipping price'=>'','discount shipping'=>'');
